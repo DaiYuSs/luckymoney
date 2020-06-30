@@ -5,3 +5,6 @@
 ``mvn spring-boot:run``
 
 ``mvn clean package``打包，``java -jar */*.jar``启动
+
+# 命令行改变生产环境
+``java -jar -Dspring.profiles.active=prod */*.jar``就可以使用prod的配置信息
