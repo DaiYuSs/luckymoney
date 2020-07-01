@@ -29,3 +29,6 @@
 |--|--|
 |@PathVariable|获取Url中的数据|
 |@RequestParam|获取请求参数中的数据|
+
+# 数据库
+数据库引擎`MyISAM`不支持事务，`InnoDB`支持
