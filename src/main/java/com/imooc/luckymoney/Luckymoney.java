@@ -47,4 +47,20 @@ public class Luckymoney {
     public String getConsumer() {
         return consumer;
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setMoney(BigDecimal money) {
+        this.money = money;
+    }
+
+    public void setProducer(String producer) {
+        this.producer = producer;
+    }
+
+    public void setConsumer(String consumer) {
+        this.consumer = consumer;
+    }
 }
