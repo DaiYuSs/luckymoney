@@ -20,3 +20,12 @@
 ```
 
 ``@Controller + @ResponseBody = @RestController``
+
+# Controller
+``@GetMapping({"/hello", "/hi""})``<br>
+可以给类上加一个注解，实现所有方法url的前缀url``@RequestMapping("/hello")``<br>
+获取url传参
+|注解|功能|
+|--|--|
+|@PathVariable|获取Url中的数据|
+|@RequestParam|获取请求参数中的数据|
